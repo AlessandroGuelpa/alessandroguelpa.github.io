@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .link {
+    width: 25%;
+    height: 40px;
+    margin: auto;
+    border: 0.5px solid white;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: hover 0.3s linear;
+  }
+  .link:first-child:hover {
+    background-color: #161b22;
+    transition: background-color 0.3s linear;
+  }
+  .link:nth-child(2):hover {
+    background-color: #833ab4;
+    transition: background-color 0.3s linear;
+  }
+  .link:nth-child(3):hover {
+    background-color: #0b65c2;
+    transition: background-color 0.3s linear;
+  }
+  .link:nth-child(4):hover {
+    background-color: rgb(197, 34, 29);
+    transition: background-color 0.3s linear;
+  }
+  .link i {
+    float: left;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-right: -30px;
+  }
+  footer{
+    position: absolute;
+    bottom:0;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom:5px;
+  }
