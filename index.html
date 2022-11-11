@@ -9,18 +9,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h3>Hello World, i am</h3>
+      <h3 style="color: grey;margin-bottom:-15px;">Hello World, i am</h3>
       <h1>Alessandro Guelpa</h1>
-      <h2>And i am {{animation}}</h2>
+      <h3 style="color: grey">
+        And i am <span style="color: white" class="typing"></span>
+      </h3>
     </header>
-    <section>
-      <img
-        src="Screenshot 2022-11-08 alle 19.15.56.png"
-        width="10%"
+    <section style="margin-bottom:30px;">
+      <img class="img_class"
+        src="Soggetto.png"
         alt=""
         srcset=""
       />
@@ -36,18 +38,35 @@
         Instagram
       </a>
 
-      <a class="link" href="https://www.linkedin.com/in/alessandro-guelpa-6434551b4/"
+      <a
+        class="link"
+        href="https://www.linkedin.com/in/alessandro-guelpa-6434551b4/"
         ><i class="fa-brands fa-linkedin"></i>
         Linkedln
       </a>
 
       <a class="link" href="mailto:alexander.guelpa@gmail.com"
         ><i class="fa-regular fa-envelope"></i>
-        Mail
+        Email
       </a>
     </section>
     <footer>
-      <span style="color: grey">2022 ©</span><span>Alessandro Guelpa</span>
+      <span style="color: grey">2022 ©</span><span> Alessandro Guelpa</span>
     </footer>
+    <script>
+      var typed = new Typed(".typing", {
+        strings: [
+          "Front-End Developer",
+          "Web Developer",
+          "Shopify Developer",
+          "Shopify Manager",
+        ],
+        typeSpeed: 130,
+        backSpeed: 60,
+        cursorChar: " |",
+        smartBackspace: true,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
