@@ -1,5 +1,3 @@
-# struct
+# Personal Website speed test
 
-## Personal Website
-
-### Testing cdn
+## Testing cdn
